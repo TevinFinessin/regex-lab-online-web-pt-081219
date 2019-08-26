@@ -1,7 +1,7 @@
 def starts_with_a_vowel?(word)
 word =~ /[aeiou]/
-contains_vowel("test") # returns 1
-contains_vowel("sky")  # returns nil
+contains_vowel("test")
+contains_vowel("sky") 
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
