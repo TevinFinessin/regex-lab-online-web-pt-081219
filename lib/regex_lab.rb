@@ -23,7 +23,6 @@ first_letter = text.scan(/\w+/)[0]
     false
   end
 end
-end
 
 def valid_phone_number?(phone)
 
